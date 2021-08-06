@@ -4,8 +4,12 @@ services:
   web:
     image: nginx:alpine
     restart: always
+    ports:
+      -"80:80"
+      -"443:443"
     volumes:
-      - 
+      - config/nginx/enabled:/etc/nginx/conf.d
+
   php:
     image: php
 
