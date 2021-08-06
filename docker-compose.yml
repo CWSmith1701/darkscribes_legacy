@@ -9,6 +9,7 @@ services:
       -"443:443"
     volumes:
       - config/nginx/enabled:/etc/nginx/conf.d
+      - data/nginx:/var/www
 
   php:
     image: php
