@@ -9,3 +9,5 @@ This project requires that you install [Docker](https://www.docker.com/). Users 
 Two seperate sites wil be accessable through your web browser when the project is completed. 
 
 Darkscribes.local and Lemontastica.local. Both Sites are legacy fanfiction archives.
+
+Much of the Docker related portions of this project are based off this [artcile](https://blog.sylo.space/guide-to-install-nginx-php-mariadb-phpmyadmin-in-docker/) by [Harianto van Insulinde](https://blog.sylo.space/author/harianto/)
